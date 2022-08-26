@@ -1,0 +1,27 @@
+body{
+
+
+}
+.header{
+    font-size:20px;
+}
+.container-one, .footer{
+    background-color:#1F2937;
+    font-weight: bold;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+    font-family: roboto, 'Times New Roman', Times, serif;
+    padding: 25px;
+}
+
+.right-links{
+    display:flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:gray;
+}
