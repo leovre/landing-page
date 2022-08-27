@@ -171,7 +171,14 @@ margin-bottom: 125px;
     color:#F9FAF8;
     border-radius:10px;
     border:2px solid white;
+    
    
+}
+
+.button-one:hover, .button-two:hover{
+    background-color: black;
+    color:white;
+    transition:0.7s
 }
 
 .text{
