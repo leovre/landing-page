@@ -37,7 +37,6 @@ a{
 .hero-text{
  color:white;
  display:flex;
- flex-wrap:wrap;
  font-size:48px;
  font-weight:900;
 }
@@ -53,14 +52,12 @@ color:lightgray;
 display:flex;
 flex-direction:column;
 flex-wrap:wrap;
-flex-direction: column;
 font-size:18px;
 margin-top:10px;
 }
 
 .button-one{
     background-color:#3882F6 ;
-    padding:5px;
     font-size:15px;
     font-weight: 900;
     color:#F9FAF8;
@@ -90,7 +87,7 @@ margin-bottom: 125px;
 .illustrations{
     display:flex; 
     justify-content:center;
-    gap:35px;
+    gap:65px;
     margin-top:30px;
 }
 
@@ -104,7 +101,7 @@ margin-bottom: 125px;
     display:flex;
     justify-content:center;
     text-align: center;
-    gap:55px;
+    gap:85px;
     margin-top:5px;
 }
 
@@ -137,32 +134,58 @@ margin-bottom: 125px;
 
 .container-five{
     display:flex;
-    padding:60px;
+    padding: 80px;
     justify-content: center;
-    align-items: center;
+}
+
+.box{   
+    display:flex;
+    justify-content: space-around;
+    gap:170px;
+    background-color:#3882F6;
+    border-radius: 10px;
+    padding: 40px 150px;
+   
+}
+
+.box-two{
+    display:flex;
+    flex-direction: column;
+    padding:10px;
 }
 
 .call-to-action{
     color: white;
-    
+    font-weight:900 ;
+    font-size:26px;
 }
 
 .button-two{
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background-color:#3882F6 ;
-    padding:5px;
-    font-size:15px;
+    padding:20px 30px;
     font-weight: 900;
+    font-size:20px;
     color:#F9FAF8;
-    padding: 10px 40px;
     border-radius:10px;
-    border:white
+    border:2px solid white;
+   
 }
 
-.box{
-
-    border: 2px blue solid;
-    background-color:#3882F6;
-    padding: 35px 250px;
-    border-radius:10px;
-    gap:5px;
+.text{
+    color:lightgray;
 }
+
+
+.footer{
+display:flex;
+flex-direction:column;
+background-color:#1F2937 ;
+justify-content: center;
+align-items: center;
+color:white;
+padding:45px;
+}
+
