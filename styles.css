@@ -107,3 +107,62 @@ margin-bottom: 125px;
     gap:55px;
     margin-top:5px;
 }
+
+.container-four{
+    display:flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+
+.quote{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:36px;
+    font-style:italic;
+    color: rgb(72, 72, 72)
+}
+
+.author{
+    display:flex;
+    justify-content: end;
+    color:#1F2937;
+    margin-right:250px;
+    margin-top:10px;
+    font-weight: 900;
+    font-size:25px;
+}
+
+.container-five{
+    display:flex;
+    padding:60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action{
+    color: white;
+    
+}
+
+.button-two{
+    background-color:#3882F6 ;
+    padding:5px;
+    font-size:15px;
+    font-weight: 900;
+    color:#F9FAF8;
+    padding: 10px 40px;
+    border-radius:10px;
+    border:white
+}
+
+.box{
+
+    border: 2px blue solid;
+    background-color:#3882F6;
+    padding: 35px 250px;
+    border-radius:10px;
+    gap:5px;
+}
